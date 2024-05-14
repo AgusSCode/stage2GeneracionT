@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salgueiro Agustin Tp n°1</title>
+</head>
+<body>
+<header>
+    <h1>Ejercicios de HTML Nivel Intermedio</h1>
+</header>
+    <div>
+        <h2>Superhéroes</h2>
+        <ol>
+            <li>Superman</li>
+            <li>Ben 10</li>
+            <li>Zatanna</li>
+        </ol>
+    </div>
+
+    <div>
+        <h2>Villanos</h2>
+        <ul>
+            <li>Deathstroke</li>
+            <li>Lex Luthor</li>
+            <li>Vilgax</li>
+        </ul>
+    </div>
+	<div>
+        <h2>Perfiles de Futbolistas Famosos</h2>
+        <ul>
+            <li><a href="https://es.wikipedia.org/wiki/Lionel_Messi">Lionel Messi</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Cristiano_Ronaldo">Cristiano Ronaldo</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Neymar">Neymar Jr.</a></li>
+        </ul>
+    </div>
+	<div>
+        <h2>Galeria de imágenes de villanos</h2>
+			<h3>Deathstroke</h3>
+                <img src="multimedia/img/imagenVillano1-1.jpg" alt="Deathstroke" width=200>
+                <p>Slade Joseph Wilson</p>
+           
+               <img src="multimedia/img/imagenVillano1-2.jpg" alt="Deathstroke" width=200>
+                <p>Es un superhumano, asesino/mercenario. Su primera aparición fue en The New Teen Titans (Vol. 1) N° 2 (en diciembre de 1980).</p>
+				
+				<img src="multimedia/img/imagenVillano1-3.jpg" alt="Deathstroke" width=200>
+                <p>Este no vive bajo valores morales, realiza su trabajo al mayor ofertante de dinero.</p>
+				
+			<h3>Lex Luthor</h3>
+                <img src="multimedia/img/imagenVillano2-1.jpg" alt="Lex Luthor" width=200>
+                <p>Alexander Joseph "Lex" Luthor.</p>
+           
+               <img src="multimedia/img/imagenVillano2-2.jpg" alt="Lex Luthor" width=200>
+                <p>Lex Luthor apareció originalmente en Action Comics No. 23 (abril de 1940). Es uno de los villanos más icónicos de Superman.</p>
+				
+				<img src="multimedia/img/imagenVillano2-3.jpg" alt="Lex Luthor" width=200>
+                <p>Es el director ejecutivo de LexCorp, y siempre busca herramientas políticas o sociales para derrumbar la imágen pública de su enemigo.</p>
+				
+			<h3>Vilgax</h3>
+                <img src="multimedia/img/imagenVillano3-1.jpg" alt="Vilgax" width=200>
+                <p>Es el villano más recurrente e importante de Ben 10.</p>
+           
+               <img src="multimedia/img/imagenVillano3-2.jpg" alt="Vilgax" width=200>
+                <p>Hizo su primera aparición en su serie clásica de 2005.</p>
+				
+				<img src="multimedia/img/imagenVillano3-3.jpg" alt="Vilgax" width=200>
+                <p>Es un villano interplanetario que cuenta con una variedad de poderes, algunos de ellos, conseguidos a través de la conquista de planetas enteros.</p>		
+    </div>
+	<div>
+        <h2>Momentos épicos de películas de superhéroes</h2>
+			<iframe width="560" height="315" src="multimedia/video/momentoEpico1.mp4" frameborder="0" allowfullscreen></iframe>
+			<br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/avImauQ-6wU" frameborder="0" allowfullscreen></iframe>
+			<br>
+			<iframe width="560" height="315" src="multimedia/video/momentoEpico3.mp4" frameborder="0" allowfullscreen></iframe>
+    </div>  
+	<div>
+        <h2>Formulario de Inscripción</h2>
+        <form action="procesar_inscripcion.php" method="post">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="categoria">Categoría:</label>
+            <select id="categoria" name="categoria">
+                <option value="Sub-12">Sub-12</option>
+                <option value="Sub-15">Sub-15</option>
+                <option value="Sub-18">Sub-18</option>
+            </select><br>
+
+            <label>Posición en el campo:</label><br>
+            <input type="radio" id="delantero" name="posicion" value="Delantero">
+            <label for="delantero">Delantero</label><br>
+
+            <input type="radio" id="mediocampista" name="posicion" value="Mediocampista">
+            <label for="mediocampista">Mediocampista</label><br>
+
+            <input type="radio" id="defensa" name="posicion" value="Defensa">
+            <label for="defensa">Defensa</label><br>
+
+            <input type="radio" id="portero" name="posicion" value="Portero">
+            <label for="portero">Portero</label><br>
+
+            <input type="checkbox" id="terminos" name="terminos" required>
+            <label for="terminos">Acepto los términos y condiciones del torneo</label><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+	<div>
+        <h2>Resultados del Torneo de Tenis</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre del Jugador</th>
+                    <th>País</th>
+                    <th>Partidos Ganados</th>
+                    <th>Partidos Perdidos</th>
+                    <th>Puntos Totales</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rafael Nadal</td>
+                    <td>España</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Novak Djokovic</td>
+                    <td>Serbia</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>Roger Federer</td>
+                    <td>Suiza</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>Dominic Thiem</td>
+                    <td>Austria</td>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Alexander Zverev</td>
+                    <td>Alemania</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>20</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+<footer>
+	<p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+</footer>
+</html>
