@@ -1,0 +1,29 @@
+/* Estilos para los divs */
+
+.bun {
+    background-color: #d9a566; /* Ajustar el color del pan */
+    height: 60px; /* Hacer los panes más altos */
+    width: 400px;
+    margin: 0 auto;
+}
+
+.sausage {
+    background-color: #a83c3b; /* Ajustar el color de la salchicha */
+    height: 50px; /* Hacer la salchicha un poco menos alta */
+    border-radius: 30px; /* Bordes redondeados para la salchicha */
+    margin: -10px auto; /* Ajustar el margen para solapar mejor con los panes */
+    width: 450px; /* Hacer la salchicha más larga */
+}
+
+.top-bun {
+    border-bottom: 10px solid #c18b50;
+    margin-top: 50px;
+    border-radius: 50px 50px 20px 20px; /* Más redondeado en los extremos exteriores */
+}
+
+.bottom-bun {
+    border-top: 10px solid #c18b50;
+    margin-bottom: 50px;
+    margin-top: -10px; /* Ajustar el margen para solapar mejor con la salchicha */
+    border-radius: 20px 20px 50px 50px; /* Más redondeado en los extremos exteriores */
+}
