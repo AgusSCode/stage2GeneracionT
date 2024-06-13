@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#portfolio">Portafolio</a>
+            <a href="#about">Acerca de mí</a>
+            <a href="#contact">Contacto</a>
+        </div>
+    </nav>
+    <header class="header">
+        <h1>Agustin Salgueiro</h1>
+        <img src="img/profile.png" alt="Tu foto">
+        <p>Desarrollador Web</p>
+    </header>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="project">
+                <h3>Superhéroes y villanos</h3>
+                <div class="images">
+                    <img src="img/pagina1foto.png" alt="Imagen 1">
+                </div>
+                <p>Página donde se ponen en práctica los conceptos básicos de HTML</p>
+            </div>
+            <div class="project">
+                <h3>Elige tu propia Aventura!</h3>
+                <div class="images">
+                    <img src="img/pagina2foto.png" alt="Imagen 2">
+                </div>
+                <p>Proyecto Elige tu propia Aventura, juego a través de botones</p>
+            </div>
+            <div class="project">
+                <h3>Star Wars wiki</h3>
+                <div class="images">
+                    <img src="img/pagina3foto.png" alt="Imagen 3">
+                </div>
+                <p>Página informativa de Starwars, aplica conceptos de HTML y CSS</p>
+            </div>
+			
+			<div class="project">
+                <h3>Extra</h3>
+                <div class="images">
+                    <img src="img/CV.png" alt="Imagen 4">
+					<img src="img/CV2.png" alt="Imagen 4">
+                </div>
+                <p>Curriculum Vitae</p>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Acerca de mí</h2>
+            <hr>
+            <p>Soy Agus, un desarrollador web apasionado con una profunda dedicación a la creación de experiencias digitales excepcionales. 
+			Con un ojo meticuloso para el detalle y un compromiso inquebrantable con la calidad, me especializo en diseñar y desarrollar sitios web intuitivos, 
+			responsivos y visualmente atractivos. 
+			Mi objetivo es combinar creatividad con tecnología para ofrecer soluciones innovadoras que no solo cumplen con los requisitos del cliente, 
+			sino que también superan sus expectativas. Estoy continuamente aprendiendo y adaptándome a las nuevas tendencias 
+			y tecnologías para asegurarme de que cada proyecto en el que trabajo esté a la vanguardia de la industria web.</p>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="enviar.php" method="post">
+                <input type="text" name="nombre" placeholder="Nombre">
+                <input type="email" name="email" placeholder="Correo electrónico">
+                <input type="tel" name="telefono" placeholder="Teléfono">
+                <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+<footer class="footer">
+    <div class="container">
+        <p>© 2024 - Todos los derechos reservados</p>
+        <a href="https://github.com/AgusSCode" class="github-icon">
+           <i class="fab fa-github"></i> 
+        </a>
+    </div>
+</footer>
+</body>
+</html>

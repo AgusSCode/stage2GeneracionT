@@ -1,0 +1,185 @@
+body {
+    background-color: #ADD8E6;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+
+.header {
+    text-align: center;
+}
+
+.header img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+
+.project {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.images {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.images img {
+    max-width: 100%;
+    margin-right: 10px;
+}
+
+
+.about h2 {
+    font-size: 24px;
+}
+
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.footer a.github-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1000px;
+        padding: 15px;
+    }
+
+    .navbar a {
+        margin: 0 15px;
+    }
+
+    .project {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 750px;
+        padding: 10px;
+    }
+
+    .navbar a {
+        margin: 0 10px;
+    }
+
+    .header img {
+        width: 80%;
+    }
+
+    .images {
+        flex-direction: column;
+    }
+
+    .images img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .about h2 {
+        font-size: 20px;
+    }
+
+    .contact input,
+    .contact textarea {
+        padding: 8px;
+    }
+
+    .contact button {
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 100%;
+        padding: 5px;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .header img {
+        width: 100%;
+    }
+
+    .images {
+        flex-direction: column;
+    }
+
+    .images img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .about h2 {
+        font-size: 18px;
+    }
+
+    .contact input,
+    .contact textarea {
+        padding: 6px;
+    }
+
+    .contact button {
+        padding: 6px 10px;
+    }
+}
