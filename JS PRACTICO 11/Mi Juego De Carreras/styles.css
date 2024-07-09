@@ -1,0 +1,21 @@
+#track {
+    width: 800px;
+    height: 400px;
+    border: 2px solid black;
+    background: url('img/pista.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+#track img {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+}
+
+#car1 { top: 60px; }
+#car2 { top: 140px; }
+#car3 { top: 220px; }
+#car4 { top: 300px; }

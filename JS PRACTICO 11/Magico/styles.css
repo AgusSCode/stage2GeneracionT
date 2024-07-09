@@ -1,0 +1,14 @@
+#magia {
+    width: 200px;
+    height: 50px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid black;
+    margin: 20px 0;
+}
+
+#imagenMagica {
+    width: 300px;
+    height: auto;
+}

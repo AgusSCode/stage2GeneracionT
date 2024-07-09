@@ -1,0 +1,12 @@
+body {
+    background-image: url('https://i.imgur.com/jnCXdAx.jpg');
+    height: 100vh;
+    margin: 0;
+    cursor: none; 
+}
+
+
+#follower {
+    position: fixed;
+    transition: 2s; 
+}

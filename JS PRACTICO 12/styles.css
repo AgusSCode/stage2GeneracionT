@@ -1,0 +1,31 @@
+body {
+  background: #f0f0f0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  background: #fff;
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 80%;
+  height: 30px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.time-container, .score-container {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.end-game-container {
+  display: none;
+}
